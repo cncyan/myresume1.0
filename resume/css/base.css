@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{ padding:17px;}
+header,footer,nav,div,section,aside{
+    border:0px;
+    border-radius:5px;}
+a,a:hover{ text-decoration:none;}
+.fl{ float: left}
+.fr{float: right;}
+.gone{display: none;}
+.main{ min-height: 500px;}
+.myinfos li{border:0px; margin-left: 10px;}
+.skill-list{width: 85%;}
+.glory-list{width: 85%;}
+.mylable{color: darkgray;}
+.myulpjt li a{ margin-left: 15px;}
+.mypjtlink,.myhob{width: 75%;}
+.myjum{width: 80%;}
+.mypjtdes{padding-right: 20px;}
+.mypjtdes p{ text-indent: 2em; color:gray;}
+/*悬浮联系框*/
+ #cs_box {width:120px; height:200px; color:#FFF; background:#693; position:fixed; right:10px; top:100px; border-radius:10px; z-index:1000}
+#cs_box span {height:20px; line-height:20px;display:block;}
+.cs_title {font-size:14px; margin:10px; font-weight:bold;}
+.cs_img {width:100px; height:100px; background:#FFF; margin:10px;background-image:url(../image/cartoon.jpg) }
+.cs_btn {width:100px; height:25px; background:url(http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_02.png); margin:5px 10px; border-radius:5px; font-size:12px; line-height:25px; color:#FFF; text-align:center; cursor:pointer;}
